@@ -12,7 +12,13 @@ installfiles = {
 textfiles = {"README.md"}
 unpackfiles = {'askinclude.dtx'}
 
+function docinit_hook ()
+ return  cp("*.bib", "build/unpacked" ,"build/doc")
+end
+
 packtdszip  = true
+
+checkconfigs = {"build","config-noxetex"}
 
 maxprintline=10000
 checkruns = 2
