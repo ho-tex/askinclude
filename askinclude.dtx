@@ -1,14 +1,14 @@
 % \iffalse meta-comment
 %
 % File: askinclude.dtx
-% Version: 2018/11/01 v2.4
+% Version: 2019/12/15 v2.5
 % Info: Interactive asking of included files
 %
 % Copyright (C)
 %    1991-1994  Pablo A. Straub
 %    2007, 2008, 2011 Heiko Oberdiek
 %    2016-2019 Oberdiek Package Support Group
-%    https://github.com/ho-tex/oberdiek/issues
+%    https://github.com/ho-tex/askinclude/issues
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either
@@ -24,29 +24,15 @@
 %
 % The Current Maintainers of this work are
 % Heiko Oberdiek and the Oberdiek Package Support Group
-% https://github.com/ho-tex/oberdiek/issues
+% https://github.com/ho-tex/askinclude/issues
 %
 % This work consists of the main source file askinclude.dtx
 % and the derived files
 %    askinclude.sty, askinclude.pdf, askinclude.ins, askinclude.drv,
-%    askinclude.bib, askinclude-a.tex, askinclude-b.tex,
-%    askinclude-c.tex, askinclude-test1.tex,
-%    askinclude-test2.tex, askinclude-test3.tex,
-%    askinclude-test4.tex, askinclude-test5.tex,
-%    askinclude-test6.tex, askinclude-test7.tex,
-%    askinclude-test8.tex, askinclude-test9.tex,
-%    askinclude-test10.tex, askinclude-test11.tex,
-%    askinclude-test12.tex, askinclude-test13.tex,
-%    askinclude-test14.tex, askinclude-test15.tex,
-%    askinclude-test16.tex, askinclude-test17.tex,
-%    askinclude-test18.tex, askinclude-test19.tex,
-%    askinclude-test20.tex, askinclude-test21.tex,
-%    askinclude-test22.tex, askinclude-test23.tex,
-%    askinclude-test24.tex.
 %
 % Distribution:
-%    CTAN:macros/latex/contrib/oberdiek/askinclude.dtx
-%    CTAN:macros/latex/contrib/oberdiek/askinclude.pdf
+%    CTAN:macros/latex/contrib/askinclude/askinclude.dtx
+%    CTAN:macros/latex/contrib/askinclude/askinclude.pdf
 %
 % Unpacking:
 %    (a) If askinclude.ins is present:
@@ -76,9 +62,9 @@
 %       pdflatex askinclude.dtx
 %
 % Installation:
-%    TDS:tex/latex/oberdiek/askinclude.sty
-%    TDS:doc/latex/oberdiek/askinclude.pdf
-%    TDS:source/latex/oberdiek/askinclude.dtx
+%    TDS:tex/latex/askinclude/askinclude.sty
+%    TDS:doc/latex/askinclude/askinclude.pdf
+%    TDS:source/latex/askinclude/askinclude.dtx
 %
 %<*ignore>
 \begingroup
@@ -95,7 +81,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: askinclude 2018/11/01 v2.4 Interactive asking of included files}
+\Msg{* Package: askinclude 2019/12/15 v2.5 Interactive asking of included files}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -107,7 +93,7 @@
 This is a generated file.
 
 Project: askinclude
-Version: 2018/11/01 v2.4
+Version: 2019/12/15 v2.5
 
 Copyright (C)
    1991-1994 Pablo A. Straub
@@ -128,26 +114,12 @@ This work has the LPPL maintenance status "maintained".
 
 The Current Maintainers of this work are
 Heiko Oberdiek and the Oberdiek Package Support Group
-https://github.com/ho-tex/oberdiek/issues
+https://github.com/ho-tex/askinclude/issues
 
 
 This work consists of the main source file askinclude.dtx
 and the derived files
    askinclude.sty, askinclude.pdf, askinclude.ins, askinclude.drv,
-   askinclude.bib, askinclude-a.tex, askinclude-b.tex,
-   askinclude-c.tex, askinclude-test1.tex,
-   askinclude-test2.tex, askinclude-test3.tex,
-   askinclude-test4.tex, askinclude-test5.tex,
-   askinclude-test6.tex, askinclude-test7.tex,
-   askinclude-test8.tex, askinclude-test9.tex,
-   askinclude-test10.tex, askinclude-test11.tex,
-   askinclude-test12.tex, askinclude-test13.tex,
-   askinclude-test14.tex, askinclude-test15.tex,
-   askinclude-test16.tex, askinclude-test17.tex,
-   askinclude-test18.tex, askinclude-test19.tex,
-   askinclude-test20.tex, askinclude-test21.tex,
-   askinclude-test22.tex, askinclude-test23.tex,
-   askinclude-test24.tex.
 
 \endpreamble
 \let\MetaPrefix\DoubleperCent
@@ -160,36 +132,8 @@ and the derived files
   \file{askinclude.bib}{\from{askinclude.dtx}{bib}}%
   \usepreamble\defaultpreamble
   \usepostamble\defaultpostamble
-  \usedir{tex/latex/oberdiek}%
+  \usedir{tex/latex/askinclude}%
   \file{askinclude.sty}{\from{askinclude.dtx}{package}}%
-%  \usedir{doc/latex/oberdiek/test}%
-  \file{askinclude-a.tex}{\from{askinclude.dtx}{a}}%
-  \file{askinclude-b.tex}{\from{askinclude.dtx}{b}}%
-  \file{askinclude-c.tex}{\from{askinclude.dtx}{c}}%
-%  \file{askinclude-test1.tex}{\from{askinclude.dtx}{test0,test1}}%
-%  \file{askinclude-test2.tex}{\from{askinclude.dtx}{test0,test2}}%
-%  \file{askinclude-test3.tex}{\from{askinclude.dtx}{test0,test3}}%
-%  \file{askinclude-test4.tex}{\from{askinclude.dtx}{test0,test4}}%
-%  \file{askinclude-test5.tex}{\from{askinclude.dtx}{test0,test5}}%
-%  \file{askinclude-test6.tex}{\from{askinclude.dtx}{test0,test6}}%
-%  \file{askinclude-test7.tex}{\from{askinclude.dtx}{test0,test7}}%
-%  \file{askinclude-test8.tex}{\from{askinclude.dtx}{test0,test8}}%
-%  \file{askinclude-test9.tex}{\from{askinclude.dtx}{test0,test9}}%
-%  \file{askinclude-test10.tex}{\from{askinclude.dtx}{test0,test10}}%
-%  \file{askinclude-test11.tex}{\from{askinclude.dtx}{test0,test11}}%
-%  \file{askinclude-test12.tex}{\from{askinclude.dtx}{test0,test12}}%
-%  \file{askinclude-test13.tex}{\from{askinclude.dtx}{test0,test13}}%
-%  \file{askinclude-test14.tex}{\from{askinclude.dtx}{test0,test14}}%
-%  \file{askinclude-test15.tex}{\from{askinclude.dtx}{test0,test15}}%
-%  \file{askinclude-test16.tex}{\from{askinclude.dtx}{test0,test16}}%
-%  \file{askinclude-test17.tex}{\from{askinclude.dtx}{test0,test17}}%
-%  \file{askinclude-test18.tex}{\from{askinclude.dtx}{test0,test18}}%
-%  \file{askinclude-test19.tex}{\from{askinclude.dtx}{test0,test19}}%
-%  \file{askinclude-test20.tex}{\from{askinclude.dtx}{test0,test20}}%
-%  \file{askinclude-test21.tex}{\from{askinclude.dtx}{test0,test21}}%
-%  \file{askinclude-test22.tex}{\from{askinclude.dtx}{test0,test22}}%
-%  \file{askinclude-test23.tex}{\from{askinclude.dtx}{test0,test23}}%
-%  \file{askinclude-test24.tex}{\from{askinclude.dtx}{test0,test24}}%
 }
 
 \catcode32=13\relax% active space
@@ -249,10 +193,10 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{askinclude.drv}%
-  [2018/11/01 v2.4 Interactive asking of included files]%
+  [2019/12/15 v2.5 Interactive asking of included files]%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
-\usepackage{ifluatex}
+\usepackage{iftex}
 \ifluatex
 \else
   \usepackage[T1]{fontenc}%
@@ -277,11 +221,11 @@ and the derived files
 % \GetFileInfo{askinclude.drv}
 %
 % \title{The \xpackage{askinclude} package}
-% \date{2018/11/01 v2.4}
+% \date{2019/12/15 v2.5}
 % \author{
 %   Pablo A. Straub\\[1ex]
 %    Heiko Oberdiek\thanks
-% {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
+% {Please report any issues at \url{https://github.com/ho-tex/askinclude/issues}}}
 % 
 %
 % \maketitle
@@ -664,7 +608,7 @@ and the derived files
 \TMP@EnsureCode{96}{12}% `
 \edef\AskInc@AtEnd{\AskInc@AtEnd\noexpand\endinput}
 \ProvidesPackage{askinclude}%
-  [2018/11/01 v2.4 Interactive asking of included files]%
+  [2019/12/15 v2.5 Interactive asking of included files]%
 %    \end{macrocode}
 %
 % Luatex compat
@@ -1633,17 +1577,17 @@ and the derived files
 % \paragraph{Package.} This package is available on
 % CTAN\footnote{\CTANpkg{askinclude}}:
 % \begin{description}
-% \item[\CTAN{macros/latex/contrib/oberdiek/askinclude.dtx}] The source file.
-% \item[\CTAN{macros/latex/contrib/oberdiek/askinclude.pdf}] Documentation.
+% \item[\CTAN{macros/latex/contrib/askinclude/askinclude.dtx}] The source file.
+% \item[\CTAN{macros/latex/contrib/askinclude/askinclude.pdf}] Documentation.
 % \end{description}
 %
 %
-% \paragraph{Bundle.} All the packages of the bundle `oberdiek'
+% \paragraph{Bundle.} All the packages of the bundle `askinclude'
 % are also available in a TDS compliant ZIP archive. There
 % the packages are already unpacked and the documentation files
 % are generated. The files and directories obey the TDS standard.
 % \begin{description}
-% \item[\CTANinstall{install/macros/latex/contrib/oberdiek.tds.zip}]
+% \item[\CTANinstall{install/macros/latex/contrib/askinclude.tds.zip}]
 % \end{description}
 % \emph{TDS} refers to the standard ``A Directory Structure
 % for \TeX\ Files'' (\CTANpkg{tds}). Directories
@@ -1651,11 +1595,11 @@ and the derived files
 %
 % \subsection{Bundle installation}
 %
-% \paragraph{Unpacking.} Unpack the \xfile{oberdiek.tds.zip} in the
+% \paragraph{Unpacking.} Unpack the \xfile{askinclude.tds.zip} in the
 % TDS tree (also known as \xfile{texmf} tree) of your choice.
 % Example (linux):
 % \begin{quote}
-%   |unzip oberdiek.tds.zip -d ~/texmf|
+%   |unzip askinclude.tds.zip -d ~/texmf|
 % \end{quote}
 %
 % \subsection{Package installation}
@@ -1673,9 +1617,9 @@ and the derived files
 % \begin{quote}
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
-%   askinclude.sty & tex/latex/oberdiek/askinclude.sty\\
-%   askinclude.pdf & doc/latex/oberdiek/askinclude.pdf\\
-%   askinclude.dtx & source/latex/oberdiek/askinclude.dtx\\
+%   askinclude.sty & tex/latex/askinclude/askinclude.sty\\
+%   askinclude.pdf & doc/latex/askinclude/askinclude.pdf\\
+%   askinclude.dtx & source/latex/askinclude/askinclude.dtx\\
 % \end{tabular}^^A
 % }^^A
 % \sbox0{\t}^^A
@@ -1868,6 +1812,10 @@ and the derived files
 %   \begin{Version}{2018/11/01 v2.4}
 %   \item
 %    Remove luatex85 package dependency
+%   \end{Version}
+%   \begin{Version}{2019/12/15 v2.5}
+%   \item
+%     Documentation updates.
 %   \end{Version}
 % \end{History}
 %
