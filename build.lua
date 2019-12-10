@@ -3,10 +3,6 @@
 
 module = "askinclude"
 
-installfiles = {
-'*.sty',
-'*.dtx','*.pdf'
-}
 
 
 textfiles = {"README.md"}
