@@ -1,7 +1,7 @@
 % \iffalse meta-comment
 %
 % File: askinclude.dtx
-% Version: 2019-12-10 v2.6 
+% Version: 2020-04-12 v2.7
 % Info: Interactive asking of included files
 %
 % Copyright (C)
@@ -81,7 +81,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: askinclude 2019-12-10 v2.6 Interactive asking of included files}
+\Msg{* Package: askinclude 2020-04-12 v2.7 Interactive asking of included files}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -93,12 +93,12 @@
 This is a generated file.
 
 Project: askinclude
-Version: 2019-12-10 v2.6
+Version: 2020-04-12 v2.7
 
 Copyright (C)
    1991-1994 Pablo A. Straub
    2007, 2008, 2011 Heiko Oberdiek
-   2016-2019 Oberdiek Package Support Group
+   2016-2020 Oberdiek Package Support Group
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License, either
@@ -193,7 +193,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{askinclude.drv}%
-  [2019-12-10 v2.6 Interactive asking of included files]%
+  [2020-04-12 v2.7 Interactive asking of included files]%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
 \usepackage{iftex}
@@ -221,7 +221,7 @@ and the derived files
 % \GetFileInfo{askinclude.drv}
 %
 % \title{The \xpackage{askinclude} package}
-% \date{2019-12-10 v2.6}
+% \date{2020-04-12 v2.7}
 % \author{
 %   Pablo A. Straub\\[1ex]
 %    Heiko Oberdiek\thanks
@@ -608,7 +608,7 @@ and the derived files
 \TMP@EnsureCode{96}{12}% `
 \edef\AskInc@AtEnd{\AskInc@AtEnd\noexpand\endinput}
 \ProvidesPackage{askinclude}%
-  [2019-12-10 v2.6 Interactive asking of included files]%
+  [2020-04-12 v2.7 Interactive asking of included files]%
 %    \end{macrocode}
 %
 % Luatex compat
@@ -1820,6 +1820,9 @@ and the derived files
 %   \begin{Version}{2019-12-10 v2.6}
 %   \item Updated
 %   \end{Version}
+%   \begin{Version}{2020-04-12 v2.7}
+%   \item Updated
+%   \end{Version}
 % \end{History}
 %
 % \PrintIndex
@@ -1892,6 +1895,9 @@ and the derived files
 %   \end{Version}
 %   \begin{Version}{2019-12-10 v2.6}
 %   \item Updated
+%   \end{Version}
+%   \begin{Version}{2020-04-12 v2.7}
+%   \item Fixed issue \#1, wrong catcode in filename match after kernel change. 
 %   \end{Version}
 % \end{History}
 %
