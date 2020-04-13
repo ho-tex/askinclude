@@ -12,7 +12,7 @@ function docinit_hook ()
  return  cp("*.bib", "build/unpacked" ,"build/doc")
 end
 
-packtdszip  = true
+packtdszip  = false
 
 checkconfigs = {"build","config-noxetex"}
 
